@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+
+<MenuBar xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.MenusController">
+    <menus>
+        <Menu text="Estudante">
+            <items>
+                <MenuItem fx:id="menuEstudanteInclui" onAction="#incluiOnAction" text="Inclui" />
+                <MenuItem fx:id="menuEstudanteAlterar" mnemonicParsing="false" onAction="#alterarOnAction" text="Alterar" />
+                <MenuItem fx:id="menuEstudanteExcluir" mnemonicParsing="false" onAction="#excluirOnAction" text="Excluir" />
+                <MenuItem fx:id="menuEstudanteSair" mnemonicParsing="false" onAction="#sairOnAction" text="Sair" />
+            </items>
+        </Menu>
+        <Menu text="Professor">
+            <items>
+                <MenuItem fx:id="menuTelaVazia" onAction="#telaVaziaOnAction" text="Tela Vazia" />
+                <MenuItem fx:id="menuProfessorSair" mnemonicParsing="false" onAction="#sairOnAction" text="Sair" />
+            </items>
+        </Menu>
+    </menus>
+</MenuBar>
